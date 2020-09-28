@@ -22,6 +22,7 @@ const Login = (props) => {
 
         if(mensaje){
             mostrarAlerta(mensaje.msg, mensaje.categoria)
+            // console.info(mensaje.msg, mensaje.categoria)
             return;
         }
         // eslint-disable-next-line
